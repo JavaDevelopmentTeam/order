@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: order
+
+server:
+  port:7071
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/,http://127.0.0.1:8761/eureka/
